@@ -1,7 +1,7 @@
 import './animatedLetters.scss'
 
 
-function animatedLetters({ letterClass, strArray, idx }) {
+function AnimatedLetters({ letterClass, strArray, idx }) {
     return (
         <span>
             {
@@ -16,4 +16,4 @@ function animatedLetters({ letterClass, strArray, idx }) {
 
 }
 
-export default animatedLetters;
+export default AnimatedLetters;

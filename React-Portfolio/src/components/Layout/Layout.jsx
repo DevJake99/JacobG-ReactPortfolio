@@ -1,6 +1,7 @@
 import './index.scss';
-import Navbar from '../Navigation/Navigation';
+import Navbar from '../Navigation/Header';
 import { Outlet } from 'react-router-dom';
+
 
 function Layout() {
     return (
@@ -15,12 +16,14 @@ function Layout() {
 
                 <Outlet />
 
+
                 <span className='tags bottom-tags'>
                     &lt;/body&gt;
                     <br />
                     <span className='html'>&lt;/html&gt;</span>
                 </span>
             </div>
+
         </div>
     )
 }

@@ -1,4 +1,7 @@
 .home-page {
+    height: 30%;
+    width: 100%;
+
     .text-zone {
         position: absolute;
         left: 10%;
@@ -76,4 +79,11 @@
         }
     }
 
+    .projects-container {
+        position: relative;
+        top: 100px;
+
+        
+
+    }
 }

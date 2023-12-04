@@ -1,5 +1,5 @@
 import { Link, NavLink } from 'react-router-dom'
-import './navigation.scss';
+import './header.scss';
 import LogoJ from '../../assets/images/logo-j.png'
 import SubLogo from '../../assets/images/sub-logo-j.png'
 import { FontAwesomeIcon, } from '@fortawesome/react-fontawesome'
@@ -25,7 +25,7 @@ function Navbar() {
                     <FontAwesomeIcon icon={faEnvelope} color='#4d4d4e'  ></FontAwesomeIcon>
                 </NavLink>
             </nav>
-            <ul>
+            <ul className='footer'>
                 <li>
                     <a target='_blank' rel='noreferrer' href='https://www.linkedin.com/in/jacob-garcia-7a59621b8/'>
                         <FontAwesomeIcon icon={faLinkedin} color='#4d4d4e' />
