@@ -15,8 +15,8 @@ export default function Projects() {
                     <hr></hr>
                 </div>
                 <div className="project-list">
-                    {projectList.map((project) => {
-                        return <ProjectItem name={project.name} image={project.image} />;
+                    {projectList.map((project, idx) => {
+                        return <ProjectItem id={idx} name={project.name} image={project.image} />;
                     })}
                 </div>
 
