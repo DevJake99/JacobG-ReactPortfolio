@@ -25,7 +25,7 @@ function Contact() {
             (result) => {
                 console.log(result.text)
                 alert('Message sent!')
-                window.location.reload(false)
+                window.location.reload(true)
             }, (error) => {
                 console.log(error)
                 alert('failed to send, please try again')
