@@ -1,7 +1,7 @@
 import cryptoZone from '../assets/images/cryptoZone.png'
 import MVCTechBlog from '../assets/images/mvctechblog.png'
 import MealShare from '../assets/images/MealShare.png'
-import ReadMEGen from '../assets/images/ReadMeGen.png'
+import ReadMEGen from '../assets/images/ReadmeGen.png'
 
 
 export const projectList = [
