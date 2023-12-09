@@ -160,7 +160,7 @@ body {
 @media only screen and (max-width: 500px) {
     .nav-bar{
         position: absolute;
-        margin-top: 35px;
+        margin-top: 0px;
         height:100vh
     }
     .container{
@@ -172,11 +172,12 @@ body {
             width:70%;
         }
         .project-container{
-           // position:absolute;
+           position:absolute;
             //top: -65px;
             .projheader{
                 position: relative;
                 top:-35px;
+                //left:30px;
             }
         }
         
@@ -191,8 +192,8 @@ body {
         }
         .projectItem{
             //position: absolute;
-            margin-left:-90px;
-            margin-right: 20px;
+            margin-left:-100px;
+            margin-right: 80px;
             h2{
                 width:100%
             }
