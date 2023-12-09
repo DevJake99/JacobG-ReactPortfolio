@@ -22,7 +22,7 @@ function Home() {
 
     return (
         <>
-            <div className='scroll'>
+
 
             <div className='container home-page'>
                 <div className='text-zone'>
@@ -40,16 +40,15 @@ function Home() {
                     <h2> MERN Stack Expert / JavaScript / React / Node.js/ Databases</h2>
                     <Link to='/contact' className='flat-button'>CONTACT ME</Link>
 
-                    <div className='projects-container'>
-                        <Projects />
-                    </div>
+                    <Projects />
+
 
                 </div>
 
             </div>
             <Loader type='eyemove' />
 
-            </div>
+
         </>
     )
 }

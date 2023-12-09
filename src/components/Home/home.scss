@@ -1,5 +1,5 @@
 .home-page {
-    height: 30%;
+    height: 80%;
     width: 100%;
 
     .text-zone {
@@ -79,11 +79,36 @@
         }
     }
 
-    .projects-container {
+    .project-container {
+        position: relative;
+        top: 80px;
+        left: 50px;
+
+        .project-header{
+            display: grid;
+            place-items: center;
+            hr{
+                width:100%;
+            }
+            position:relative;
+            left:-80px;
+            
+        }
+
+
+        .projecthead {
+            position: relative;
+            //left: 15px;
+        }
+
+    }
+
+    .project-list {
         position: relative;
         top: 100px;
+        left: 20px;
 
-        
+
 
     }
 }
