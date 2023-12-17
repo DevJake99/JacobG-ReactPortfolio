@@ -32,10 +32,14 @@ export default function DisplayProject() {
                         letterClass={letterClass}
                         strArray={arr}
                         idx={15} /></h1>
+                </div>
                     <a target='_blank' rel='noreferrer' className='icon' href={project.link}>
                         <FontAwesomeIcon icon={faLink} color='#ffd700' />
                     </a>
-                </div>
+                    <a target='_blank' rel='noreferrer' className='icon' href={project.github}>
+                        <FontAwesomeIcon icon={faGithub} color='#ffd700' />
+                    </a>
+
                 <div className="proj-image" >
                     <img src={project.image}></img>
                 </div>

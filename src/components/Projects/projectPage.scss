@@ -16,27 +16,29 @@
         display: table-cell;
         max-height: 90%;
 
+        .icon {
+            font-size: 40px;
+            justify-self: end;
+            padding-left: 5px;
+            padding-right: 5px;
+            position: relative;
+            right: 170px; // adjust as needed
+        }
 
         .proj-header {
             display: grid;
             width: 700px;
-            grid-template-columns: 0.7fr 0.25fr;
-        
-            .icon {
-                font-size: 70px;
-                justify-self: end;
-                padding-left: 5px;
-                padding-right: 5px;
-                position: relative;
-                right: 70px; // adjust as needed
-            }
-        
+            grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+            gap: (0px);
+
+
             h1 {
                 justify-self: start;
             }
+
         }
-        
-        h3{
+
+        h3 {
             color: #cce5f5;
             font-size: 33px;
             position: relative;
