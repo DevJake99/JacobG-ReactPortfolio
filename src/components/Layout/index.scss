@@ -6,7 +6,7 @@ body {
     /*  expiremental */
     /* This will change the scrollbar track (background) */
     ::-webkit-scrollbar {
-        width: 9px;
+        width: 0px;
         background: #022c43;
     }
 
@@ -158,52 +158,131 @@ body {
 }
 
 @media only screen and (max-width: 500px) {
-    .nav-bar{
+    .nav-bar {
         position: absolute;
         margin-top: 0px;
-        height:100vh
+        height: 100vh
     }
-    .container{
-        right:10px;
+
+    .home-page {
+        right: 10px;
         top: 80px;
         min-height: 85vh;
-        h2{
+
+        h2 {
             top: 80px;
-            width:70%;
+            width: 70%;
         }
-        .project-container{
-           position:absolute;
+
+        // on home page
+        .project-container {
+            position: absolute;
+
             //top: -65px;
-            .projheader{
+            .projheader {
                 position: relative;
-                top:-35px;
+                top: -35px;
+                height: 5px;
                 //left:30px;
             }
         }
-        
-        .project-header{
+
+        .project-header {
             //display:grid;
             //place-items: center;
-            width:100%;
+            width: 100%;
+
             //height:auto;
-            hr{
-                display:none;
+            hr {
+                display: none;
             }
         }
-        .projectItem{
+
+        .projectItem {
             //position: absolute;
-            margin-left:-100px;
+            margin-left: -100px;
             margin-right: 80px;
-            h2{
-                width:100%
+
+            hr {
+                display: none;
             }
+
+            h2 {
+                width: 100%
+            }
+
             //height:70%
         }
     }
 
-    .top-tags{
+    .project {
+        margin: 0px;
         position: relative;
-        top:90px;
-       
+        top: 100px;
+        left: 30px;
+        width: 420px;
+        box-sizing: border-box;
+
+        #proj-text-zone {
+            width: 420px;
+            box-sizing: border-box;
+
+            .proj-header {
+                width: 300px;
+                display: block;
+                //flex-direction: row;
+                //overflow:scroll;
+                //position: relative;
+                //word-wrap: break-word;
+
+                h1 {
+                    font-size: 40px;
+                    white-space: normal;
+                    //word-wrap: break-word;
+                }
+
+            }
+
+            a {
+                font-size: 40px;
+                position: relative;
+                left: -80px;
+
+            }
+
+        }
     }
+
+    .about-page {
+        width: 100%;
+
+        .stage-cube-cont {
+            position: relative;
+            left: 300px;
+            top: 70px;
+        }
+
+        .text-zone {
+            width: 80%;
+        }
+    }
+
+    .contact-page {
+        .text-zone {
+            width: 80%
+        }
+    }
+
+    .top-tags {
+        position: relative;
+        top: 90px;
+        left: 15%;
+    }
+
+    .bottom-tags {
+        position: absolute;
+        left: 20%;
+    }
+
+
 }

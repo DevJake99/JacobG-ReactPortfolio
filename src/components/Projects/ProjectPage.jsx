@@ -25,7 +25,7 @@ export default function DisplayProject() {
     const arr = h1.split('')
     return <>
         <div className="project container">
-            <div className="text-zone">
+            <div className="text-zone" id="proj-text-zone">
 
                 <div className="proj-header">
                     <h1><AnimatedLetters
@@ -33,12 +33,12 @@ export default function DisplayProject() {
                         strArray={arr}
                         idx={15} /></h1>
                 </div>
-                    <a target='_blank' rel='noreferrer' className='icon' href={project.link}>
-                        <FontAwesomeIcon icon={faLink} color='#ffd700' />
-                    </a>
-                    <a target='_blank' rel='noreferrer' className='icon' href={project.github}>
-                        <FontAwesomeIcon icon={faGithub} color='#ffd700' />
-                    </a>
+                <a target='_blank' rel='noreferrer' className='icon' href={project.link}>
+                    <FontAwesomeIcon icon={faLink} color='#ffd700' />
+                </a>
+                <a target='_blank' rel='noreferrer' className='icon' href={project.github}>
+                    <FontAwesomeIcon icon={faGithub} color='#ffd700' />
+                </a>
 
                 <div className="proj-image" >
                     <img src={project.image}></img>
